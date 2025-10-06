@@ -27,8 +27,8 @@
     {{-- Navbar --}}
     <nav class="bg-white shadow-lg" x-data="{ open: false, scrolled: false }"
          @scroll.window="scrolled = window.pageYOffset > 10"
-         :class="{ 'shadow-xl': scrolled }">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+         :class="{ 'shadow-lg': scrolled }">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16">
                 {{-- Logo --}}
                 <div class="flex items-center">
@@ -40,19 +40,48 @@
                 {{-- Desktop Menu --}}
                 <div class="hidden md:flex md:items-center md:space-x-8">
                     <a href="{{ route('home') }}"
-                       class="px-3 py-2 text-sm font-medium transition {{ request()->routeIs('home') ? 'text-primary border-b-2 border-primary' : 'text-gray-700 hover:text-primary' }}">
+                    class="relative inline-block text-sm font-medium text-gray-700
+                            after:content-[''] after:absolute after:left-1/2 after:bottom-[-8px] after:h-[2px]
+                            after:bg-primary after:transition-all after:duration-300 after:-translate-x-1/2
+                            after:w-0 hover:after:w-full hover:text-primary
+                            {{ request()->routeIs('home') ? 'active text-primary [&.active]:after:!w-full' : '' }}">
                         Home
                     </a>
-                    <a href="#"
-                       class="px-3 py-2 text-sm font-medium transition {{ request()->routeIs('bootcamp') ? 'text-primary border-b-2 border-primary' : 'text-gray-700 hover:text-primary' }}">
+                    <a href="{{ route('bootcamp') }}"
+                    class="relative inline-block text-sm font-medium text-gray-700
+                            after:content-[''] after:absolute after:left-1/2 after:bottom-[-8px] after:h-[2px] after:w-0
+                            after:bg-primary after:transition-all after:duration-300 after:-translate-x-1/2
+                            hover:after:w-full
+                            {{ request()->routeIs('bootcamp') ? 'active text-primary [&.active]:after:!w-full' : '' }}">
                         Bootcamp
                     </a>
-                    <a href="#"
-                       class="px-3 py-2 text-sm font-medium text-gray-700 hover:text-primary transition">
-                        Masuk
+                    <a href="{{ route('about') }}"
+                    class="relative inline-block text-sm font-medium text-gray-700
+                            after:content-[''] after:absolute after:left-1/2 after:bottom-[-8px] after:h-[2px] after:w-0
+                            after:bg-primary after:transition-all after:duration-300 after:-translate-x-1/2
+                            hover:after:w-full
+                            {{ request()->routeIs('about') ? 'active text-primary [&.active]:after:!w-full' : '' }}">
+                        About Us
+                    </a>
+                    </a>
+                    <a href="{{ route('team') }}"
+                    class="relative inline-block text-sm font-medium text-gray-700
+                            after:content-[''] after:absolute after:left-1/2 after:bottom-[-8px] after:h-[2px] after:w-0
+                            after:bg-primary after:transition-all after:duration-300 after:-translate-x-1/2
+                            hover:after:w-full
+                            {{ request()->routeIs('team') ? 'active text-primary [&.active]:after:!w-full' : '' }}">
+                        Our Team
+                    </a>
+                    <a href="{{ route('contact') }}"
+                    class="relative inline-block text-sm font-medium text-gray-700
+                            after:content-[''] after:absolute after:left-1/2 after:bottom-[-8px] after:h-[2px] after:w-0
+                            after:bg-primary after:transition-all after:duration-300 after:-translate-x-1/2
+                            hover:after:w-full
+                            {{ request()->routeIs('contact') ? 'active text-primary [&.active]:after:!w-full' : '' }}">
+                        Contact
                     </a>
                     <a href="#"
-                       class="bg-primary text-white px-4 py-2 rounded-lg text-sm font-medium shadow-md hover:bg-blue-900 transition">
+                    class="bg-primary text-white px-4 py-2 rounded-lg text-sm font-medium hover:border-2 hover:border-primary hover:bg-transparent hover:text-primary transition">
                         Daftar
                     </a>
                 </div>
@@ -82,19 +111,30 @@
              class="md:hidden bg-white border-t border-gray-200">
             <div class="px-2 pt-2 pb-3 space-y-1">
                 <a href="{{ route('home') }}"
-                   class="block px-3 py-2 rounded-md text-base font-medium transition {{ request()->routeIs('home') ? 'bg-primary/10 text-primary' : 'text-gray-700 hover:text-primary hover:bg-gray-50' }}">
+                   class="relative inline-block w-full px-3 py-2 text-base font-medium text-gray-700
+                          after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:h-[2px]
+                          after:bg-primary after:transition-all after:duration-300 after:-translate-x-1/2
+                          after:w-0 hover:after:w-[calc(100%-1.5rem)] hover:text-primary
+                          {{ request()->routeIs('home') ? 'active text-primary [&.active]:after:!w-[calc(100%-1.5rem)]' : '' }}">
                     Home
                 </a>
-                <a href="#"
-                   class="block px-3 py-2 rounded-md text-base font-medium transition {{ request()->routeIs('bootcamp') ? 'bg-primary/10 text-primary' : 'text-gray-700 hover:text-primary hover:bg-gray-50' }}">
+                <a href="{{ route('bootcamp') }}"
+                   class="relative inline-block w-full px-3 py-2 text-base font-medium text-gray-700
+                          after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:h-[2px]
+                          after:bg-primary after:transition-all after:duration-300 after:-translate-x-1/2
+                          after:w-0 hover:after:w-[calc(100%-1.5rem)] hover:text-primary
+                          {{ request()->routeIs('bootcamp') ? 'active text-primary [&.active]:after:!w-[calc(100%-1.5rem)]' : '' }}">
                     Bootcamp
                 </a>
                 <a href="#"
-                   class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-50">
+                   class="relative inline-block w-full px-3 py-2 text-base font-medium text-gray-700
+                          after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:h-[2px]
+                          after:bg-primary after:transition-all after:duration-300 after:-translate-x-1/2
+                          after:w-0 hover:after:w-[calc(100%-1.5rem)] hover:text-primary">
                     Masuk
                 </a>
                 <a href="#"
-                   class="block px-3 py-2 rounded-md text-base font-medium bg-primary text-white hover:bg-blue-900 transition mt-2">
+                   class="block px-3 py-2 rounded-md text-base font-medium bg-primary text-white hover:border-2 hover:border-primary hover:bg-transparent hover:text-primary transition mt-2">
                     Daftar
                 </a>
             </div>
@@ -102,7 +142,7 @@
     </nav>
 
     {{-- Main --}}
-    <main class="max-w-6xl mx-auto px-4 py-12">
+    <main class="max-w-screen mx-auto px-4 py-12">
         @yield('content')
     </main>
 
