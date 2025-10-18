@@ -16,9 +16,9 @@
             <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 hover:scale-105">
                 <img src="https://via.placeholder.com/400x400" alt="Team Member" class="w-full h-64 object-cover">
                 <div class="p-6">
-                    <h3 class="text-xl font-semibold text-gray-800">John Doe</h3>
+                    <h3 class="text-xl font-semibold text-gray-800">Anisa</h3>
                     <p class="text-gray-600 mb-4">CEO & Founder</p>
-                    <p class="text-gray-500 text-sm mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="text-gray-500 text-sm mb-4">NIM : 2310120019.</p>
                     <div class="flex space-x-4">
                         <a href="#" class="text-blue-500 hover:text-blue-600"><i class="fab fa-linkedin"></i></a>
                         <a href="#" class="text-blue-400 hover:text-blue-500"><i class="fab fa-twitter"></i></a>
@@ -31,9 +31,9 @@
             <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 hover:scale-105">
                 <img src="https://via.placeholder.com/400x400" alt="Team Member" class="w-full h-64 object-cover">
                 <div class="p-6">
-                    <h3 class="text-xl font-semibold text-gray-800">Jane Smith</h3>
+                    <h3 class="text-xl font-semibold text-gray-800">Andi Nur Akifah</h3>
                     <p class="text-gray-600 mb-4">CTO</p>
-                    <p class="text-gray-500 text-sm mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="text-gray-500 text-sm mb-4">NIM : 2310120003</p>
                     <div class="flex space-x-4">
                         <a href="#" class="text-blue-500 hover:text-blue-600"><i class="fab fa-linkedin"></i></a>
                         <a href="#" class="text-blue-400 hover:text-blue-500"><i class="fab fa-twitter"></i></a>
@@ -46,9 +46,9 @@
             <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 hover:scale-105">
                 <img src="https://via.placeholder.com/400x400" alt="Team Member" class="w-full h-64 object-cover">
                 <div class="p-6">
-                    <h3 class="text-xl font-semibold text-gray-800">Mike Johnson</h3>
+                    <h3 class="text-xl font-semibold text-gray-800">Anita Zakiati</h3>
                     <p class="text-gray-600 mb-4">Lead Developer</p>
-                    <p class="text-gray-500 text-sm mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="text-gray-500 text-sm mb-4">NIM : 2310120020</p>
                     <div class="flex space-x-4">
                         <a href="#" class="text-blue-500 hover:text-blue-600"><i class="fab fa-linkedin"></i></a>
                         <a href="#" class="text-blue-400 hover:text-blue-500"><i class="fab fa-twitter"></i></a>
