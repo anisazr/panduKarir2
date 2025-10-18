@@ -12,14 +12,14 @@
 
 ---
 
-## 🌟 Tentang Pandu Karir
+## Tentang Pandu Karir
 
 **Pandu Karir** adalah website bimbingan karier yang dirancang untuk membantu mahasiswa dan pencari kerja menemukan arah karier yang sesuai dengan potensi dan minat mereka.  
 Melalui platform ini, pengguna dapat mengakses informasi, panduan, dan fitur interaktif untuk mempersiapkan diri menghadapi dunia kerja dengan lebih percaya diri.
 
 ---
 
-## 👩‍💻 Tim Pengembang
+## Tim Pengembang
 
 | Nama | Foto | Peran |
 |------|------|-------|
@@ -27,11 +27,11 @@ Melalui platform ini, pengguna dapat mengakses informasi, panduan, dan fitur int
 | **Anisa** | <img src="assets/anisa.jpg" width="120" height="120"> | Backend Developer |
 | **Anita Zakiati** | <img src="assets/anita.jpg" width="120" height="120"> | UI/UX Designer |
 
-> 📸 *Ganti link atau path foto di atas dengan foto asli kalian (misalnya `assets/andi.jpg` di dalam folder proyek GitHub).*
+> *Ganti link atau path foto di atas dengan foto asli kalian (misalnya `assets/andi.jpg` di dalam folder proyek GitHub).*
 
 ---
 
-## ⚙️ Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 | Teknologi | Deskripsi |
 |------------|------------|
@@ -41,9 +41,9 @@ Melalui platform ini, pengguna dapat mengakses informasi, panduan, dan fitur int
 
 ---
 
-## 🚀 Fitur Utama
+## Fitur Utama
 
-- 🔐 Registrasi dan login pengguna  
-- 🧭 Panduan karier berdasarkan minat dan keahlian  
-- 🧑‍🎓 Profil pengguna yang dapat disesuaikan  
-- 💬 Tampilan modern dan responsif mengguna
+- Registrasi dan login pengguna  
+- Panduan karier berdasarkan minat dan keahlian  
+- Profil pengguna yang dapat disesuaikan  
+- Tampilan modern dan responsif mengguna
