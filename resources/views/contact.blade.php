@@ -44,7 +44,7 @@
                     <div>
                         <h3 class="text-lg font-medium text-gray-900">Our Office</h3>
                         <p class="mt-2 text-base text-gray-500">
-                            123 Business Street<br>
+                            Jl.TB Simatupang usiness Street<br>
                             Jakarta, Indonesia 12345
                         </p>
                     </div>
@@ -53,7 +53,7 @@
                         <h3 class="text-lg font-medium text-gray-900">Contact Info</h3>
                         <div class="mt-2 space-y-2">
                             <p class="text-base text-gray-500">
-                                <span class="font-medium">Email:</span> info@example.com
+                                <span class="font-medium">Email:</span> panduKarir@gmail.com
                             </p>
                             <p class="text-base text-gray-500">
                                 <span class="font-medium">Phone:</span> +62 123 456 7890
