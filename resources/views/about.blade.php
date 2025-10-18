@@ -11,7 +11,9 @@
                     About Us
                 </h1>
                 <p class="mt-6 max-w-2xl mx-auto text-xl text-gray-500">
-                    Discover who we are and what drives us forward
+                    Pandu Karir adalah platform pengembangan karier yang dirancang untuk membantu pelajar, mahasiswa, dan profesional muda menemukan arah karier terbaik mereka. Kami percaya bahwa setiap individu memiliki potensi unik yang bisa dikembangkan jika mendapat panduan yang tepat.
+                    Melalui layanan asesmen minat dan bakat, bimbingan karier, pelatihan soft skill, hingga persiapan dunia kerja, Pandu Karir hadir sebagai teman perjalanan menuju masa depan yang lebih pasti. Kami tidak hanya membantu kamu mendapatkan pekerjaan, tapi juga menemukan makna dan tujuan dalam kariermu.
+                    Dengan pendekatan yang berbasis data, pengalaman praktis, dan dukungan mentor profesional, Pandu Karir berkomitmen untuk mencetak generasi yang siap bersaing, berintegritas, dan berdaya saing global.
                 </p>
             </div>
         </div>
@@ -29,7 +31,7 @@
                     </p>
                 </div>
                 <div class="relative h-64 overflow-hidden rounded-lg">
-                    <img class="object-cover w-full h-full" src="{{ asset('images/mission.jpg') }}" alt="Our Mission">
+                    
                 </div>
             </div>
         </div>
@@ -45,14 +47,31 @@
                 </p>
             </div>
             <div class="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-                <!-- Team Member Card -->
+                <!-- Team Member 1 -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <img class="w-full h-48 object-cover" src="{{ asset('images/team-1.jpg') }}" alt="Team Member">
+                    <img class="w-full h-48 object-cover" src="{{ asset('img/aynu.jpeg') }}" alt="Team Member">
                     <div class="p-6">
-                        <h3 class="text-xl font-semibold text-gray-900">John Doe</h3>
+                        <h3 class="text-xl font-semibold text-gray-900">Aynu Uzma Zein Rahma</h3>
                         <p class="text-gray-600">CEO & Founder</p>
                     </div>
                 </div>
+                <!-- Team Member 2 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="{{ asset('img/atikah.jpeg') }}" alt="Team Member">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900">Atikah Salimah</h3>
+                        <p class="text-gray-600">CFO</p>
+                    </div>
+                </div>
+                <!-- Team Member 3 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="{{ asset('img/fitri.jpeg') }}" alt="Team Member">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900">Fitri Zahra Asyifa</h3>
+                        <p class="text-gray-600">CMO</p>
+                    </div>
+                </div>
+            </div>
                 <!-- Add more team member cards as needed -->
             </div>
         </div>

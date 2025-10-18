@@ -7,14 +7,14 @@
         <!-- Header -->
         <div class="text-center mb-16">
             <h2 class="text-4xl font-bold text-gray-800 mb-4">Our Team</h2>
-            <p class="text-lg text-gray-600">Meet the amazing people behind our success</p>
+            <p class="text-lg text-gray-600">Meet the amazing people behind our success website</p>
         </div>
 
         <!-- Team Grid -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <!-- Team Member 1 -->
             <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 hover:scale-105">
-                <img src="https://via.placeholder.com/400x400" alt="Team Member" class="w-full h-64 object-cover">
+                <img src="{{asset('img/anisa.jpeg')}}" alt="Anisa" class="w-full h-64 object-cover">
                 <div class="p-6">
                     <h3 class="text-xl font-semibold text-gray-800">Anisa</h3>
                     <p class="text-gray-600 mb-4">CEO & Founder</p>
@@ -29,7 +29,7 @@
 
             <!-- Team Member 2 -->
             <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 hover:scale-105">
-                <img src="https://via.placeholder.com/400x400" alt="Team Member" class="w-full h-64 object-cover">
+                <img src="{{asset('img/akifah.jpeg')}}" alt="Andi Nur Akifah" class="w-full h-64 object-cover">
                 <div class="p-6">
                     <h3 class="text-xl font-semibold text-gray-800">Andi Nur Akifah</h3>
                     <p class="text-gray-600 mb-4">CTO</p>
@@ -44,7 +44,7 @@
 
             <!-- Team Member 3 -->
             <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 hover:scale-105">
-                <img src="https://via.placeholder.com/400x400" alt="Team Member" class="w-full h-64 object-cover">
+                <img src="{{asset('img/anita.jpeg')}}" alt="Anita zakiati" class="w-full h-64 object-cover">
                 <div class="p-6">
                     <h3 class="text-xl font-semibold text-gray-800">Anita Zakiati</h3>
                     <p class="text-gray-600 mb-4">Lead Developer</p>

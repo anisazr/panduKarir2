@@ -21,7 +21,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Program Card 1 -->
                 <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="https://via.placeholder.com/400x200" alt="Web Development" class="w-full h-48 object-cover">
+                    <img src="{{ asset('img/web.jpeg') }}" alt="Web Development" class="w-full h-48 object-cover">
                     <div class="p-6">
                         <h3 class="text-xl font-semibold mb-2">Web Development</h3>
                         <p class="text-gray-600 mb-4">Learn full-stack web development with modern technologies.</p>
@@ -34,7 +34,7 @@
 
                 <!-- Program Card 2 -->
                 <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="https://via.placeholder.com/400x200" alt="Data Science" class="w-full h-48 object-cover">
+                    <img src="{{ asset('img/data.jpeg') }}" alt="Data Science" class="w-full h-48 object-cover">
                     <div class="p-6">
                         <h3 class="text-xl font-semibold mb-2">Data Science</h3>
                         <p class="text-gray-600 mb-4">Master data analysis, machine learning, and AI fundamentals.</p>
@@ -47,7 +47,7 @@
 
                 <!-- Program Card 3 -->
                 <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="https://via.placeholder.com/400x200" alt="UX/UI Design" class="w-full h-48 object-cover">
+                    <img src="{{ asset('img/uiux.jpeg') }}" alt="UX/UI Design" class="w-full h-48 object-cover">
                     <div class="p-6">
                         <h3 class="text-xl font-semibold mb-2">UX/UI Design</h3>
                         <p class="text-gray-600 mb-4">Create beautiful and functional user interfaces.</p>
