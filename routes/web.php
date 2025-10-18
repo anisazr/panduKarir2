@@ -2,22 +2,32 @@
 
 use Illuminate\Support\Facades\Route;
 
+// Halaman utama PanduKarir
 Route::get('/', function () {
     return view('home');
 })->name('home');
 
-Route::get('/bootcamp', function () {
-    return view('bootcamp');
-})->name('bootcamp');
+// About Us
+Route::get('/about', function () {
+    return view('about');
+})->name('about');
 
+// Programs
+Route::get('/programs', function () {
+    return view('programs');
+})->name('programs');
+
+// Contact
 Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
 
-Route::get('/our-team', function () {
+// Team (kalau kamu ingin team juga bisa diakses dari navbar)
+Route::get('/team', function () {
     return view('team');
 })->name('team');
 
-Route::get('/about', function () {
-    return view('about');
-})->name('about');
+// Bootcamp (jika dari layout TechBootcamp)
+Route::get('/bootcamp', function () {
+    return view('bootcamp');
+})->name('bootcamp');

@@ -1,21 +1,5 @@
-@extends('layouts.app')
-
+@extends('layouts.techbootcamp')
 @section('content')
-<section class="bg-gray-50">
-    <!-- Header -->
-    <header class="bg-white shadow-sm">
-        <nav class="container mx-auto px-4 py-6">
-            <div class="flex items-center justify-between">
-                <div class="text-2xl font-bold text-indigo-600">TechBootcamp</div>
-                <div class="hidden md:flex space-x-8">
-                    <a href="#" class="text-gray-600 hover:text-indigo-600">Home</a>
-                    <a href="#" class="text-gray-600 hover:text-indigo-600">Programs</a>
-                    <a href="#" class="text-gray-600 hover:text-indigo-600">About</a>
-                    <a href="#" class="text-gray-600 hover:text-indigo-600">Contact</a>
-                </div>
-            </div>
-        </nav>
-    </header>
 
     <!-- Hero Section -->
     <section class="bg-indigo-600 text-white py-20">
