@@ -27,8 +27,6 @@ Melalui platform ini, pengguna dapat mengakses informasi, panduan, dan fitur int
 | **Anisa** | <img src="public/img/anisa.jpeg" width="120" height="120"> | Backend Developer |
 | **Anita Zakiati** | <img src="public/img/anita.jpeg" width="120" height="120"> | UI/UX Designer |
 
-> *Ganti link atau path foto di atas dengan foto asli kalian (misalnya `assets/andi.jpg` di dalam folder proyek GitHub).*
-
 ---
 
 ## Teknologi yang Digunakan
