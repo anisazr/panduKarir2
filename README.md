@@ -23,9 +23,9 @@ Melalui platform ini, pengguna dapat mengakses informasi, panduan, dan fitur int
 
 | Nama | Foto | Peran |
 |------|------|-------|
-| **Andi Nur Akifah** | <img src="assets/andi.jpg" width="120" height="120"> | Frontend Developer |
-| **Anisa** | <img src="assets/anisa.jpg" width="120" height="120"> | Backend Developer |
-| **Anita Zakiati** | <img src="assets/anita.jpg" width="120" height="120"> | UI/UX Designer |
+| **Andi Nur Akifah** | <img src="assets/andi.jpeg" width="120" height="120"> | Frontend Developer |
+| **Anisa** | <img src="assets/anisa.jpeg" width="120" height="120"> | Backend Developer |
+| **Anita Zakiati** | <img src="assets/anita.jpeg" width="120" height="120"> | UI/UX Designer |
 
 > *Ganti link atau path foto di atas dengan foto asli kalian (misalnya `assets/andi.jpg` di dalam folder proyek GitHub).*
 
