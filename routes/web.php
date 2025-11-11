@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CourseController;
+use App\Http\Controllers\MessageController;
 
 // Halaman utama PanduKarir
 Route::get('/', function () {
@@ -13,9 +15,9 @@ Route::get('/about', function () {
 })->name('about');
 
 // Programs
-Route::get('/programs', function () {
-    return view('programs');
-})->name('programs');
+// Route::get('/programs', function () {
+//     return view('programs');
+// })->name('programs');
 
 // Contact
 Route::get('/contact', function () {
@@ -31,3 +33,9 @@ Route::get('/team', function () {
 Route::get('/bootcamp', function () {
     return view('bootcamp');
 })->name('bootcamp');
+
+// Resource route untuk CourseController
+Route::resource('courses', CourseController::class);
+
+// Resource route untuk MessageController
+Route::resource('messages', MessageController::class);

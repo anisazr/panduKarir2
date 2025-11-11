@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@yield('title', 'My Website')</title>
+    <title>@yield('title', 'Pandu Karier')</title>
 
     {{-- Tailwind CDN --}}
     <script src="https://cdn.tailwindcss.com"></script>
@@ -112,18 +112,18 @@
             <div class="px-2 pt-2 pb-3 space-y-1">
                 <a href="{{ route('home') }}"
                    class="relative inline-block w-full px-3 py-2 text-base font-medium text-gray-700
-                          after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:h-[2px]
+                          after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:h-0.5
                           after:bg-primary after:transition-all after:duration-300 after:-translate-x-1/2
                           after:w-0 hover:after:w-[calc(100%-1.5rem)] hover:text-primary
-                          {{ request()->routeIs('home') ? 'active text-primary [&.active]:after:!w-[calc(100%-1.5rem)]' : '' }}">
+                          {{ request()->routeIs('home') ? 'active text-primary [&.active]:after:w-[calc(100%-1.5rem)]' : '' }}">
                     Home
                 </a>
                 <a href="{{ route('bootcamp') }}"
                    class="relative inline-block w-full px-3 py-2 text-base font-medium text-gray-700
-                          after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:h-[2px]
+                          after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:h-0.5
                           after:bg-primary after:transition-all after:duration-300 after:-translate-x-1/2
                           after:w-0 hover:after:w-[calc(100%-1.5rem)] hover:text-primary
-                          {{ request()->routeIs('bootcamp') ? 'active text-primary [&.active]:after:!w-[calc(100%-1.5rem)]' : '' }}">
+                          {{ request()->routeIs('bootcamp') ? 'active text-primary [&.active]:after:w-[calc(100%-1.5rem)]' : '' }}">
                     Bootcamp
                 </a>
                 <a href="#"

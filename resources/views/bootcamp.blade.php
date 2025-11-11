@@ -1,4 +1,4 @@
-@extends('layouts.techbootcamp')
+@extends('layouts.app')
 @section('content')
 
     <!-- Hero Section -->
