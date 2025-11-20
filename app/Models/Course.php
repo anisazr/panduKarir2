@@ -15,6 +15,7 @@ class Course extends Model
         // 'trainer_id',
         'name',
         'desc',
+        'category_id',
     ];
 
     // Relasi dengan model User dengan role trainer (Nanti Dipakai)
@@ -24,8 +25,8 @@ class Course extends Model
         // }
 
     // Relasi dengan model Category (Nanti Dipakai)
-        // public function categories()
-        // {
-        //     return $this->belongsTo(CourseCategory::class, 'category_id');
-        // }
+        public function categories()
+        {
+            return $this->belongsTo(CourseCategory::class, 'category_id');
+        }
 }
