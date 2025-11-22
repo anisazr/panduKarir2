@@ -1,6 +1,6 @@
 <p align="center">
   <a href="#" target="_blank">
-    <img src="public/img/logoPk.jpeg" width="300" alt="Pandu Karir Logo">
+    <img src="public/img/logoPk.jpeg" width="120" height="120">
   </a>
 </p>
 
