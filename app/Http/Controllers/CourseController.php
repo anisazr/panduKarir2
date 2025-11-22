@@ -54,6 +54,7 @@ class CourseController extends Controller
      */
     public function edit(Course $course)
     {
+        $categories = \App\Models\CourseCategory::all();
         return view('courses.edit', compact('course'));
     }
 
@@ -65,6 +66,7 @@ class CourseController extends Controller
         $validated = $request->validate([
             'name' => 'required|string|max:255',
             'desc' => 'required|string',
+            'category_id' => 'required|exists:course_categories,id',
         ]);
 
         $course->update($validated);

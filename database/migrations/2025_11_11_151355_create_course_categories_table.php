@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('course_categories', function (Blueprint $table) {
             $table->id();
             $table->string('name');
+            $table->string('desc')->nullabel();
             $table->timestamps();
             $table->softDeletes();
         });

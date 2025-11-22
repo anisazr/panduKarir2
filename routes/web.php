@@ -3,39 +3,38 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CourseController;
 use App\Http\Controllers\MessageController;
+use App\Http\Controllers\CourseCategoryController;
 
-// Halaman utama PanduKarir
-Route::get('/', function () {
-    return view('home');
-})->name('home');
+// ===========================
+// HALAMAN STATIS
+// ===========================
+Route::get('/', fn() => view('home'))->name('home');
+Route::get('/about', fn() => view('about'))->name('about');
+Route::get('/contact', fn() => view('contact'))->name('contact');
+Route::get('/team', fn() => view('team'))->name('team');
+Route::get('/bootcamp', fn() => view('bootcamp'))->name('bootcamp');
 
-// About Us
-Route::get('/about', function () {
-    return view('about');
-})->name('about');
+// ===========================
+// COURSE CATEGORY (MANUAL)
+// ===========================
+Route::prefix('course-category')->group(function () {
+    Route::get('/', [CourseCategoryController::class, 'index'])->name('coursekat.index');
 
-// Programs
-// Route::get('/programs', function () {
-//     return view('programs');
-// })->name('programs');
+    Route::get('/add', [CourseCategoryController::class, 'create'])->name('coursekat.add');
+    Route::post('/store', [CourseCategoryController::class, 'store'])->name('coursekat.store');
 
-// Contact
-Route::get('/contact', function () {
-    return view('contact');
-})->name('contact');
+    Route::get('/edit/{id}', [CourseCategoryController::class, 'edit'])->name('coursekat.edit');
+    Route::post('/update/{id}', [CourseCategoryController::class, 'update'])->name('coursekat.update');
 
-// Team (kalau kamu ingin team juga bisa diakses dari navbar)
-Route::get('/team', function () {
-    return view('team');
-})->name('team');
+    Route::get('/delete/{id}', [CourseCategoryController::class, 'destroy'])->name('coursekat.delete');
+});
 
-// Bootcamp (jika dari layout TechBootcamp)
-Route::get('/bootcamp', function () {
-    return view('bootcamp');
-})->name('bootcamp');
-
-// Resource route untuk CourseController
+// ===========================
+// COURSES
+// ===========================
 Route::resource('courses', CourseController::class);
 
-// Resource route untuk MessageController
+// ===========================
+// MESSAGES
+// ===========================
 Route::resource('messages', MessageController::class);

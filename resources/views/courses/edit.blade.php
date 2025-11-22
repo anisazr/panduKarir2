@@ -20,6 +20,23 @@
                 class="mt-2 w-full border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-sky-500">{{ old('desc', $course->desc) }}</textarea>
         </div>
 
+        <!-- 🔥 TAMBAHAN CATEGORY SELECT DI SINI -->
+        <div>
+            <label class="block text-sm font-medium text-gray-700">Category</label>
+            <select name="category_id"
+                class="mt-2 w-full border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-sky-500">
+                
+                @foreach ($categories as $cat)
+                    <option value="{{ $cat->id }}"
+                        {{ $course->category_id == $cat->id ? 'selected' : '' }}>
+                        {{ $cat->name }}
+                    </option>
+                @endforeach
+
+            </select>
+        </div>
+        <!-- 🔥 END CATEGORY -->
+
         <div class="flex gap-3">
             <button type="submit"
                 class="bg-sky-600 text-white px-5 py-2 rounded-lg hover:bg-sky-700 transition">Update</button>
