@@ -1,6 +1,6 @@
 <p align="center">
   <a href="#" target="_blank">
-    <img src="https://github.com/anisazr/pandu-karir-1st/assets/your_image_path/logo-pandu-karir.png" width="300" alt="Pandu Karir Logo">
+    <img src="public/img/logoPK.jpeg" width="300" alt="Pandu Karir Logo">
   </a>
 </p>
 
