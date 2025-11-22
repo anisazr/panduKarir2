@@ -1,8 +1,9 @@
 <p align="center">
   <a href="#" target="_blank">
-    <img src="public/img/logoPk.jpeg" width="120" height="120">
+    <img src="{{ asset('img/logoPk.jpeg') }}" width="120" height="120">
   </a>
 </p>
+
 
 <p align="center">
   <a href="https://laravel.com"><img src="https://img.shields.io/badge/framework-Laravel-red" alt="Laravel"></a>
