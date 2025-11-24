@@ -15,7 +15,7 @@ class Course extends Model
         // 'trainer_id',
         'name',
         'desc',
-        'category',
+        'category_id',
     ];
 
     public function category()
