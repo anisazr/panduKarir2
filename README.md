@@ -1,7 +1,5 @@
 <p align="center">
-  <a href="#" target="_blank">
-    <img src="{{ asset('img/logoPk.jpeg') }}" width="120" height="120">
-  </a>
+  <img src="img/logoPk.jpeg" width="120" height="120">
 </p>
 
 
